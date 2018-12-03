@@ -29,6 +29,7 @@ public class MOOD950449T1 {
     driver.findElement(By.name("q")).sendKeys("rami qasem");
     // ERROR: Caught exception [unknown command [sendKeys]]
     driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Rami Qasem'])[6]/following::h3[1]")).click();
+    System.out.println("Hi Snaid");
     driver.close();
   }
 
